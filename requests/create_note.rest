@@ -1,0 +1,19 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "mi chilo xd"
+}
+
+###
+
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "important": true
+}
+
+###
+
+GET http://localhost:3001/api/notes
