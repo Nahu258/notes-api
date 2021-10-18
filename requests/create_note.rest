@@ -1,18 +1,24 @@
 POST http://localhost:3001/api/notes
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNjk4MGQwYTk0Mzc0ODMwNTZkY2U2MiIsInVzZXJuYW1lIjoiRGF5em9uZTEyIiwiaWF0IjoxNjM0NTQ4NzgwfQ.fSeQPOKYDqmMvvO1RFY472sdkmOBt8Mo4zfBN6oODMg
 
 {
-    "content": "mi chilo xd"
+    "content": "sexoooooooo anal malovich??",
+    "important": true
 }
 
 ###
-
-POST http://localhost:3001/api/notes
+PUT http://localhost:3001/api/notes/6154c2f9021ffc9e997f25de
 Content-Type: application/json
 
 {
+    "content": "el sexo es el camino del diablo",
     "important": true
 }
+
+###
+DELETE http://localhost:3001/api/notes/616d3c962149b40781a7ff4c
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNjk4MGQwYTk0Mzc0ODMwNTZkY2U2MiIsInVzZXJuYW1lIjoiRGF5em9uZTEyIiwiaWF0IjoxNjM0NTQ4NzgwfQ.fSeQPOKYDqmMvvO1RFY472sdkmOBt8Mo4zfBN6oODMg
 
 ###
 
