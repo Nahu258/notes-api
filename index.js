@@ -18,7 +18,7 @@ app.use(express.json())
 app.use(logger)
 
 app.get('/', (request, response) => {
-  response.send('<h1>Hello World! 2022</h1>')
+  response.send('<h1>Hola mundo midu api</h1>')
 })
 
 app.use('/api/notes', notesRouter)
